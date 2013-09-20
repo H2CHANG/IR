@@ -1,440 +1,95 @@
-key = pags
-value = 1
-key = prgs
-value = 1
-key = 0
-value = 1
-key = 02
-value = 2
-key = 02114
-value = 1
-key = 0950382x
-value = 2
-key = 1
-value = 1
-key = 11
-value = 1
-key = 16
-value = 1
-key = 1766380
-value = 1
-key = 19
-value = 2
-key = 1991
-value = 1
-key = 1992
-value = 2
-key = 2005
-value = 1
-key = 20738
-value = 1
-key = 33
-value = 1
-key = 5
-value = 1
-key = 8712028
-value = 1
-key = 9
-value = 1
-key = after
-value = 1
-key = ail
-value = 1
-key = animal
-value = 2
-key = animals
-value = 1
-key = article
-value = 1
-key = at
-value = 1
-key = bacterial
-value = 3
-key = boston
-value = 1
-key = chemical
-value = 1
-key = disease
-value = 2
-key = england
-value = 1
-key = expression
-value = 1
-key = gene
-value = 1
-key = general
-value = 1
-key = harvard
-value = 1
-key = hospital
-value = 1
-key = humans
-value = 1
-key = i
-value = 1
-key = im
-value = 1
-key = if
-value = 1
-key = infections
-value = 1
-key = infections
-value = 1
-key = infectious
-value = 1
-key = journal
-value = 1
-key = lom
-value = 1
-key = medline
-value = 1
-key = macrophages
-value = 1
-key = massachusetts
-value = 1
-key = medical
-value = 1
-key = microbiol
-value = 1
-key = microbiol
-value = 1
-key = miller
-value = 1
-key = models
-value = 1
-key = mol
-value = 1
-key = mol
-value = 1
-key = molecular
-value = 1
-key = n
-value = 15
-key = nlm
-value = 1
-key = one
-value = 1
-key = phagocytosis
-value = 1
-key = phagosomes
-value = 1
-key = phop
-value = 2
-key = phopphoq
-value = 1
-key = phopphoq
-value = 1
-key = phoq
-value = 2
-key = print
-value = 3
-key = regulation
-value = 1
-key = review
-value = 1
-key = s
-value = 1
-key = s
-value = 1
-key = si
-value = 1
-key = salmonella
-value = 7
-key = school
-value = 1
-key = sep
-value = 1
-key = stimulation
-value = 1
-key = study
-value = 1
-key = the
-value = 2
-key = unit
-value = 1
-key = vaccines
-value = 2
-key = virulence
-value = 1
-key = within
-value = 1
-key = y
-value = 6
-key = yersina
-value = 1
-key = a
-value = 2
-key = acid
-value = 2
-key = also
-value = 2
-key = amino
-value = 1
-key = an
-value = 2
-key = and
-value = 6
-key = are
-value = 1
-key = bacterial
-value = 2
-key = bacteriophage
-value = 1
-key = be
-value = 1
-key = better
-value = 1
-key = by
-value = 4
-key = can
-value = 1
-key = cell
-value = 2
-key = compounds
-value = 1
-key = defensin
-value = 1
-key = development
-value = 1
-key = different
-value = 1
-key = discovery
-value = 1
-key = during
-value = 1
-key = encode
-value = 1
-key = encoded
-value = 1
-key = encodes
-value = 1
-key = encoding
-value = 1
-key = eng
-value = 1
-key = enterocolitica
-value = 1
-key = envelope
-value = 1
-key = environments
-value = 2
-key = environments
-value = 1
-key = epithelial
-value = 1
-key = essential
-value = 2
-key = experience
-value = 1
-key = expressed
-value = 1
-key = expression
-value = 4
-key = expression
-value = 1
-key = factors
-value = 1
-key = fever
-value = 1
-key = fever
-value = 1
-key = for
-value = 5
-key = from
-value = 1
-key = full
-value = 1
-key = gene
-value = 3
-key = gene
-value = 1
-key = genes
-value = 2
-key = genetics
-value = 2
-key = how
-value = 1
-key = in
-value = 1
-key = increase
-value = 1
-key = infection
-value = 1
-key = invasion
-value = 1
-key = is
-value = 5
-key = knowledge
-value = 1
-key = lambda
-value = 1
-key = lead
-value = 2
-key = least
-value = 1
-key = locus
-value = 1
-key = macrophage
-value = 1
-key = macrophagespecific
-value = 1
-key = macrophages
-value = 1
-key = macrophages
-value = 2
-key = mammalian
-value = 1
-key = maximally
-value = 1
-key = may
-value = 3
-key = membrane
-value = 1
-key = microbiology
-value = 1
-key = modulators
-value = 1
-key = most
-value = 1
-key = mouse
-value = 1
-key = multiple
-value = 1
-key = murine
-value = 1
-key = necessary
-value = 3
-key = necessary
-value = 1
-key = new
-value = 1
-key = nonmacrophage
-value = 1
-key = of
-value = 9
-key = one
-value = 1
-key = outer
-value = 1
-key = pag
-value = 3
-key = pagc
-value = 1
-key = pags
-value = 1
-key = pathogenesis
-value = 1
-key = pathogenicity
-value = 1
-key = perhaps
-value = 1
-key = phagocytosis
-value = 1
-key = pho
-value = 1
-key = phop
-value = 1
-key = phopactivated
-value = 1
-key = physiology
-value = 3
-key = prg
-value = 5
-key = prgh
-value = 1
-key = prgs
-value = 1
-key = protect
-value = 1
-key = protein
-value = 2
-key = protein
-value = 1
-key = proteins
-value = 2
-key = proteins
-value = 1
-key = psi
-value = 1
-key = receptors
-value = 1
-key = regulated
-value = 1
-key = regulation
-value = 2
-key = regulatory
-value = 1
-key = regulon
-value = 1
-key = repress
-value = 1
-key = repressed
-value = 1
-key = repression
-value = 1
-key = required
-value = 1
-key = requires
-value = 1
-key = resistance
-value = 2
-key = results
-value = 1
-key = should
-value = 1
-key = signal
-value = 1
-key = similarity
-value = 1
-key = stimulate
-value = 1
-key = such
-value = 1
-key = survival
-value = 3
-key = survival
-value = 1
-key = surviving
-value = 1
-key = switch
-value = 1
-key = synthesis
-value = 1
-key = system
-value = 1
-key = that
-value = 1
-key = the
-value = 8
-key = tightly
-value = 1
-key = to
-value = 7
-key = toxic
-value = 1
-key = transcription
-value = 1
-key = transduction
-value = 1
-key = twocomponent
-value = 1
-key = typhimurium
-value = 2
-key = typhoid
-value = 2
-key = vaccines
-value = 1
-key = virulence
-value = 1
-key = virulence
-value = 1
-key = virulence
-value = 2
-key = virulence
-value = 1
-key = when
-value = 2
-key = with
-value = 1
-key = within
-value = 2
+0
+Bacterial Vaccines
+IM
+1992
+02
+19
+Animals
+N
+Bacterial Vaccines
+N
+Disease Models, Animal
+N
+Gene Expression Regulation, Bacterial
+Y
+Humans
+N
+physiology
+Y
+Macrophages
+N
+physiology
+N
+Phagocytosis
+N
+physiology
+N
+Phagosomes
+N
+pathogenicity
+Y
+Salmonella
+N
+genetics
+Y
+Salmonella Infections
+N
+genetics
+N
+Salmonella Infections, Animal
+N
+Stimulation, Chemical
+N
+Virulence
+N
+2073-8
+Infectious Disease Unit, Massachusetts General Hospital, Harvard Medical School, Boston 02114.
+PhoP/PhoQ: macrophage-specific modulators of Salmonella virulence?
+Print
+eng
+Journal Article
+Review
+Y
+SI
+Y
+S I
+Miller
+The regulation of gene expression by the two-component regulatory system PhoP/PhoQ is necessary for Salmonella typhimurium survival within macrophages, defensin resistance, acid resistance, and murine typhoid fever pathogenesis.
+Salmonella experience multiple environments during mammalian infection and survival requires tightly regulated gene expression.
+After phagocytosis by macrophages, signal transduction by PhoQ results in the transcription of phoP-activated genes (pags) encoding proteins essential to bacterial survival and virulence.
+One such gene, pagC, encodes an envelope protein with amino acid similarity to an epithelial cell invasion protein of Yersina enterocolitica, Ail, and a bacteriophage lambda outer membrane protein, Lom.
+The PhoP and PhoQ proteins can also repress the synthesis of proteins, encoded by phoP repressed genes (prgs), when pags are maximally expressed.
+If prgs encode receptors for toxic compounds, prg repression may protect the cell within macrophages when pag expression is most necessary.
+At least one prg locus, prgH, is required for full S. typhimurium mouse virulence.
+Within the macrophage, different environments may stimulate a switch from pag to prg expression that is necessary to Salmonella survival.
+prg expression may also be necessary for surviving nonmacrophage environments.
+Study of the PhoP regulon should lead to the discovery of new virulence factors, increase knowledge of how gene regulation is essential to bacterial virulence, and perhaps lead to the development of better vaccines for typhoid fever.
+Mol.
+Microbiol.
+Print
+0950-382X
+Print
+5
+1991
+Sep
+9
+Molecular microbiology
+1992
+02
+19
+MEDLINE
+33
+1
+1766380
+2005
+11
+16
+NLM
+0950-382X
+8712028
+Mol Microbiol
+ENGLAND
+pag
+pho
+prg
+psi
