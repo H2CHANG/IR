@@ -1,95 +1,65 @@
-0
-Bacterial Vaccines
-IM
-1992
-02
-19
-Animals
-N
-Bacterial Vaccines
-N
-Disease Models, Animal
-N
-Gene Expression Regulation, Bacterial
-Y
-Humans
-N
-physiology
-Y
-Macrophages
-N
-physiology
-N
-Phagocytosis
-N
-physiology
-N
-Phagosomes
-N
-pathogenicity
-Y
-Salmonella
-N
-genetics
-Y
-Salmonella Infections
-N
-genetics
-N
-Salmonella Infections, Animal
-N
-Stimulation, Chemical
-N
-Virulence
-N
-2073-8
-Infectious Disease Unit, Massachusetts General Hospital, Harvard Medical School, Boston 02114.
-PhoP/PhoQ: macrophage-specific modulators of Salmonella virulence?
-Print
-eng
-Journal Article
-Review
-Y
-SI
-Y
-S I
-Miller
-The regulation of gene expression by the two-component regulatory system PhoP/PhoQ is necessary for Salmonella typhimurium survival within macrophages, defensin resistance, acid resistance, and murine typhoid fever pathogenesis.
-Salmonella experience multiple environments during mammalian infection and survival requires tightly regulated gene expression.
-After phagocytosis by macrophages, signal transduction by PhoQ results in the transcription of phoP-activated genes (pags) encoding proteins essential to bacterial survival and virulence.
-One such gene, pagC, encodes an envelope protein with amino acid similarity to an epithelial cell invasion protein of Yersina enterocolitica, Ail, and a bacteriophage lambda outer membrane protein, Lom.
-The PhoP and PhoQ proteins can also repress the synthesis of proteins, encoded by phoP repressed genes (prgs), when pags are maximally expressed.
-If prgs encode receptors for toxic compounds, prg repression may protect the cell within macrophages when pag expression is most necessary.
-At least one prg locus, prgH, is required for full S. typhimurium mouse virulence.
-Within the macrophage, different environments may stimulate a switch from pag to prg expression that is necessary to Salmonella survival.
-prg expression may also be necessary for surviving nonmacrophage environments.
-Study of the PhoP regulon should lead to the discovery of new virulence factors, increase knowledge of how gene regulation is essential to bacterial virulence, and perhaps lead to the development of better vaccines for typhoid fever.
-Mol.
-Microbiol.
-Print
-0950-382X
-Print
-5
-1991
-Sep
+aheadofprint
+2013
+6
 9
-Molecular microbiology
-1992
-02
+21
+0
+gft363
+10.1093/ndt/gft363
+24052459
+data linkage
+open data
+performance measures
+renal replacement therapy
+survival
+2013
+9
+20
+school for health and related research university of sheffield sheffield uk
+variation in centre-specific survival in patients starting renal replacement therapy in england is explained by enhanced comorbidity information from hospitalization data
+2013
+9
 19
-MEDLINE
-33
-1
-1766380
-2005
-11
-16
-NLM
-0950-382X
-8712028
-Mol Microbiol
-ENGLAND
-pag
-pho
-prg
-psi
+eng
+journal article
+j
+james
+fotheringham
+rm
+richard m
+jacques
+d
+damian
+fogarty
+cr
+charles r v
+tomson
+m
+meguid
+el nahas
+mj
+michael j
+campbell
+unadjusted survival on renal replacement therapy rrt varies widely from centre to centre in england
+until now missing data on case mix have made it impossible to determine whether this variation reflects genuine differences in the quality of care
+data linkage has the capacity to reduce missing data
+modelling of survival using cox proportional hazards of data returned to the uk renal registry on patients starting rrt for established renal failure in england
+data on ethnicity socioeconomic status and comorbidity were obtained by linkage to the hospital episode statistics database using data from hospitalizations prior to starting rrt
+patients with missing data were reduced from 61 to 4%
+the prevalence of comorbid conditions was remarkably similar across centres
+when centre-specific survival was compared after adjustment solely for age survival was below the 95% limit for 6 of 46 centres
+the addition of variables into the multivariable model altered the number of centres that appeared to be 'outliers' with worse than expected survival as follows ethnic origin four outliers socioeconomic status eight outliers and year of the start of rrt four outliers
+the addition of a combination of 16 comorbid conditions present at the start of rrt reduced the number of centres with worse than expected survival to one
+linked data between a national registry and hospital admission dramatically reduced missing data and allowed us to show that nearly all the variation between english renal centres in 3-year survival on rrt was explained by demographic factors and by comorbidity
+nephrol
+dial
+transplant
+1460-2385
+2013
+sep
+19
+nephrology dialysis transplantation  official publication of the european dialysis and transplant association - european renal association
+0931-0509
+8706402
+nephrol dial transplant
+24052459

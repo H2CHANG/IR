@@ -16,6 +16,9 @@ our %true_data;
 my $xml = new XML::Simple (KeyAttr=>[]);
 
 my $data = $xml->XMLin("data1.txt");
+
+traverse( $data );
+
 my ($key1, $value1, @key_array);
 my $xml_file;
 my $out_file;
@@ -25,9 +28,6 @@ open $xml_file, '>', 'data2.txt'
 open $out_file, '>', 'data4.txt'
     or die "can't open $!";
 
-#dereference hash ref
-#
-#print $data->{MedlineCitation}->{PMID}->{content}, "\n";
 
 traverse( $data );
 print "\n------------------------------------------------\n";
