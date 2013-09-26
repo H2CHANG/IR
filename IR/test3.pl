@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-
+use feature 'state';
 # use module
 use XML::Simple;
 use Data::Dumper;
@@ -14,7 +14,7 @@ use open IN => ":encoding(utf8)", OUT => ":utf8";
 
 our @pubmed_data;
 our %word_data;
-
+our %char_data;
 # create object
 my $xml = new XML::Simple (KeyAttr=>[]);
 
@@ -24,6 +24,7 @@ my $remove_attribute_file; #to data1.txt
 my $xml_file; # from $ARGV[0] == data.txt
 my $out_file; # to data2.txt
 my $count_file; #to data3.txt
+my $char_file; #to data4.txt
 
 open $xml_file, '<', $ARGV[0]
     or die "can't open $!";
@@ -62,9 +63,11 @@ add_acronyms('lt','gen');               ## adding support for 'Lt. Gen.'
 
 #make sentence
 foreach (@pubmed_data){
+    state $sentence_count = 0;
+    
     my $sentences=get_sentences($_);     ## Get the sentences.
     foreach my $sentence (@$sentences) {
-        
+        $sentence_count++;
         $sentence =~ s/(.*?),/$1/g;
         $sentence =~ s/\((.*?)\)/$1/g;
         $sentence =~ s/\[(.*?)\]/$1/g;
@@ -73,7 +76,7 @@ foreach (@pubmed_data){
     
         $sentence =~ s/(.*)(\.|\?|\:)$/$1/;
         
-        print $out_file "$sentence\n";
+        print $out_file "$sentence_count.$sentence\n";
         
         my @word_array = split(/\s+/, $sentence);
         foreach (@word_array) {
@@ -101,7 +104,29 @@ foreach (sort keys %word_data) {
     print $count_file "value =  $word_data{$_}\n";
        
     }
-
+close $count_file;
+open $char_file, '>', 'data4.txt'
+    or die "can't open $!";
+foreach (sort keys %word_data) {
+    my @chars = split ("",$_);
+    my $values = $word_data{$_};
+    foreach (@chars) {
+        if (exists $char_data{$_} ) {
+            $char_data{$_} += $values;
+            
+        }
+        else {
+            $char_data{$_} = 1 * $values;
+       
+        }
+     }
+}
+foreach (sort keys %char_data) {
+    print $char_file "key = $_\n";
+    print $char_file "value =  $char_data{$_}\n";
+       
+    }
+close $char_file;
 
 sub traverse {
     our @pubmed_data;

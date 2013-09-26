@@ -15,7 +15,7 @@ our %true_data;
 # create object
 my $xml = new XML::Simple (KeyAttr=>[]);
 
-my $data = $xml->XMLin("data1.txt");
+my $data = $xml->XMLin("test1.txt");
 my ($key1, $value1, @key_array);
 my $xml_file;
 my $out_file;
@@ -27,7 +27,7 @@ open $out_file, '>', 'data4.txt'
 
 #dereference hash ref
 #
-#print $data->{MedlineCitation}->{PMID}->{content}, "\n";
+print "test",$data->{MedlineCitation}->{Article}->{Abstract}->{AbstractText}, "\n";
 
 traverse( $data );
 print "\n------------------------------------------------\n";
